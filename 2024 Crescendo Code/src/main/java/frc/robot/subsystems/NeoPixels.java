@@ -16,7 +16,7 @@ public class NeoPixels extends SubsystemBase {
   NEOP.setLength(NEOPS.getLength());
   NEOP.start();
   }
-//hello!!!!
+
   public void setRGB(int index, int r, int g, int b){
    NEOPS.setRGB(index, r, g, b);
   }
